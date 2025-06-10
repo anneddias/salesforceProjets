@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Opportunity Pipeline" icon-name="standard:opportunity">
+        <div class="slds-p-horizontal_medium">
+            <lightning-button label="Atualizar Oportunidades" onclick={refreshOpportunities} class="slds-m-bottom_medium"></lightning-button>
+
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Carregando oportunidades..." size="medium"></lightning-spinner>
+            </template>
+
+            <template if:true={hasOpportunities}>
+                <lightning-datatable
+                    key-field="Id"
+                    data={opportunities}
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+
+            <template if:false={hasOpportunities}>
+                <p class="slds-text-color_weak">Nenhuma oportunidade encontrada.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

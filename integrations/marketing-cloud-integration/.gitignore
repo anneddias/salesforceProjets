@@ -1,0 +1,71 @@
+# ----------------------
+# IDE and editor settings
+# ----------------------
+.idea/
+.vscode/
+*.sw?
+
+# ----------------------
+# Logs and temp files
+# ----------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------
+# Salesforce DX / CLI local files
+# ----------------------
+.sfdx/
+.local/
+.salesforce/
+.metadata/
+
+# Scratch org definition log
+project-scratch-def.log
+
+# ----------------------
+# Node.js (LWC Dev Server / Frontend)
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------
+# VSCode extensions for LWC
+# ----------------------
+.forceCode/
+# if using Salesforce Extension Pack: no need to exclude .sfdx as it's already above
+
+# ----------------------
+# Deployment artifacts
+# ----------------------
+*.zip
+
+# ----------------------
+# OS generated files
+# ----------------------
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# ----------------------
+# Package definition - optional
+# If you generate package.xml dynamically, ignore it.
+# If you version package.xml, comment this line.
+# /package.xml
+
+# ----------------------
+# DO NOT ignore source code!
+# These must be versioned:
+# - Apex classes (*.cls)
+# - Triggers (*.trigger)
+# - Lightning components (*.cmp, *.app, *.evt, *.design, *.tokens)
+# - LWC (force-app/main/default/lwc)
+# - Visualforce pages (*.page)
+# - Aura components (force-app/main/default/aura)
+# - Static resources (*.resource)
+
+# Therefore, DO NOT add lines like:
+# *.cls
+# *.trigger
+# *.page
+# etc.

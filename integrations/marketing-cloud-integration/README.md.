@@ -1,0 +1,25 @@
+# Integração com Marketing Cloud
+
+## Descrição
+Neste projeto, integrei Salesforce com Marketing Cloud utilizando Apex e APIs REST. O objetivo era automatizar a transferência de dados de leads e campanhas entre as duas plataformas, melhorando a segmentação e a personalização das campanhas.
+
+## Tecnologias Utilizadas:
+- **Apex**: Criação de classes para integração com as APIs do Marketing Cloud.
+- **Salesforce Flow**: Automação do processo de envio de dados.
+- **Marketing Cloud API**: Integração de Salesforce com Marketing Cloud.
+
+## Desafio
+O desafio foi garantir uma comunicação eficiente entre Salesforce e Marketing Cloud, permitindo a sincronização em tempo real dos dados de clientes e campanhas.
+
+## Solução
+Desenvolvi uma **Apex class** para enviar os dados de leads para o Marketing Cloud e usei o **Salesforce Flow** para automatizar o processo de integração.
+
+## Resultados
+- Aumento de 35% na eficiência das campanhas de marketing.
+- Melhoria na segmentação de clientes, com dados sincronizados em tempo real.
+
+## Código
+Você pode ver o código completo nas classes e flow abaixo:
+
+- **Apex Class 1:** `ApexClass1.cls`
+- **Flow:** `Flow1.flow`

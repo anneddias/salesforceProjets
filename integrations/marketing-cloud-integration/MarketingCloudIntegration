@@ -1,0 +1,6 @@
+public class MarketingCloudIntegration {
+
+    public static void syncLeadsAsync(List<Lead> leads) {
+        System.enqueueJob(new MarketingCloudSyncQueueable(leads, 0));
+    }
+}
